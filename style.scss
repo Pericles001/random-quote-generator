@@ -1,0 +1,37 @@
+@mixin fonts {
+  font-family: "New Tegomin", serif;
+}
+@mixin fonts2 {
+  font-family: "Syne Mono", monospace;
+}
+@mixin all {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+%bgWhite {
+  background-color: white;
+}
+
+* {
+  @include all();
+}
+
+body {
+  background-color: #003049;
+}
+
+#myCard {
+  float: none;
+}
+
+#text {
+  @include fonts();
+}
+#author {
+  @include fonts2();
+}
+#new-quote:hover {
+  opacity: 0.6;
+}

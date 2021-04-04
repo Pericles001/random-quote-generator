@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #003049;
+}
+
+#myCard {
+  float: none;
+}
+
+#text {
+  font-family: "New Tegomin", serif;
+}
+
+#author {
+  font-family: "Syne Mono", monospace;
+}
+
+#new-quote:hover {
+  opacity: 0.6;
+}
