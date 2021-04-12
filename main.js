@@ -1,4 +1,4 @@
-import data from "./quote.js";
+
   //add in a const  variable
   const myBody = document.getElementById("body");
   const textReceipt = document.getElementById("text");
