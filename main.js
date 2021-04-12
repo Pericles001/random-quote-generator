@@ -7,7 +7,7 @@ import data from "./quote.js";
 
   //test2
 
-  function newQuote() {
+  function newQuote(){
     let color = "#";
   color += Math.random().toString(16).slice(2, 8);
   console.log(color);
