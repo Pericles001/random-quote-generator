@@ -1,6 +1,6 @@
 //quotes qre here
 
-export default data = [
+let data = [
     {
       text:
         "Genius is one percent inspiration and ninety-nine percent perspiration.",
@@ -7570,3 +7570,5 @@ export default data = [
       author: "Tom Jackson"
     }
   ];
+
+export default data;
